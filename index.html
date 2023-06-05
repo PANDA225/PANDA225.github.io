@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<h1>EDADES: </h1>
+<script type="text/javascript">
+
+function calculaIMC(peso, altura){
+	imc = peso / (altura*altura);
+	return(imc.toFixed(2));
+}
+
+function imprimir(frase){
+	document.write(frase);
+}
+
+Epeso = 54;
+Ealtura = 1.71;
+IMC  = calculaIMC(Epeso, Ealtura);
+imprimir("IMC: " + IMC);
+
+</script>
